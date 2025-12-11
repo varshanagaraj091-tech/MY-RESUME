@@ -1,0 +1,72 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+/* Header and navigation */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+  background: #fff;
+  min-height: 70vh;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Biodata table */
+.biodata-table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+}
+
+.biodata-table th,
+.biodata-table td {
+  border: 1px solid #555;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.biodata-table th {
+  width: 30%;
+  background: #eee;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+}
